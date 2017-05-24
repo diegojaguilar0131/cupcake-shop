@@ -1,0 +1,64 @@
+h1 {
+  color: salmon;
+  font-size: 100px;
+  text-align: center;
+}
+
+h2.flashy{
+  font-style: italic;
+  text-align: center;
+  font-size: 70px;
+  color: red;
+}
+
+p {
+  text-align: center;
+  font-size: 50px;
+}
+
+p.flashy {
+  font-family: sans-serif;
+  font-style: italic;
+  color: red;
+}
+
+ul {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+h3 {
+  font-size: 150%;
+  font-family:cursive;
+  text-align: center;
+}
+
+h3.best {
+  color: red;
+  text-align: center;
+}
+
+h3.second {
+  color: chartreuse;
+}
+
+h3.third {
+  color: gold;
+}
+
+h3.fourth {
+  color: seagreen;
+}
+
+h4.flashy {
+  font-style: italic;
+  color: red;
+  text-align: center;
+  font-size: 50px;
+}
+
+body {
+  background-image: url("http://content.mycutegraphics.com/backgrounds/cupcake/yellow-cupcake-background.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
