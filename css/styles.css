@@ -1,11 +1,14 @@
 h1 {
-  color: blue;
+  color: salmon;
+  font-size: 100px;
   text-align: center;
 }
 
-h2 {
+h2.flashy{
   font-style: italic;
   text-align: center;
+  font-size: 70px;
+  color: red;
 }
 
 p {
@@ -17,23 +20,30 @@ ul {
   line-height: 40px;
 }
 
-li {
-  font-size: 125%;
+h3 {
+  font-size: 150%;
   font-family:cursive;
-  color: darkslategrey;
+  text-align: center;
 }
 
-li.first {
-  color: firebrick;
+h3.first {
+  color: red;
+  text-align: center;
 }
 
-li.second {
+h3.second {
   color: chartreuse;
 }
 
-li.third {
+h3.third {
   color: gold;
 }
-li.fourth {
+h3.fourth {
   color: seagreen;
+}
+
+body {
+  background-image: url("http://content.mycutegraphics.com/backgrounds/cupcake/yellow-cupcake-background.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
